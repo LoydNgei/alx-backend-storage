@@ -2,6 +2,6 @@
 -- Ordered by the number of (non-unique) fans
 
 SELECT origin, SUM(fans_no) AS nb_fans
-    FROM metal_bands,
+    FROM metal_bands
     GROUP BY origin
     ORDER BY nb_fans DESC;
