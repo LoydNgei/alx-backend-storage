@@ -1,7 +1,7 @@
 -- Write a script that creates a trigger  that resets 
 -- The attribute valid_email only when email has changed
 
-DELIMITER//
+DELIMITER //
 
 CREATE TRIGGER reset_valid_email BEFORE UPDATE ON users
 FOR EACH ROW
@@ -11,4 +11,4 @@ BEGIN
     END IF;
 END//
 
-DELIMITER;
+DELIMITER ;
