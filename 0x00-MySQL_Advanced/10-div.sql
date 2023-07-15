@@ -2,7 +2,7 @@
 -- Or returns 0 if the second number is equal to 0
 
 DROP FUNCTION IF EXISTS SafeDiv;
-DELIMETER $$
+DELIMITER $$
 CREATE FUNCTION SafeDiv(a INT, b INT)
 RETURNS FLOAT DETERMINISTIC
 BEGIN
