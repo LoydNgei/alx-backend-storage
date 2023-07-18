@@ -5,6 +5,6 @@ import pymongo
 
 def insert_school(mongo_collection, **kwargs):
     """Returns the new _id"""
-    results = mongo_collection.insert(kwargs)
+    results = mongo_collection.insertOne(kwargs)
 
     return results.inserted_id
