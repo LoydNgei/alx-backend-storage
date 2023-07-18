@@ -5,5 +5,5 @@ import pymongo
 
 def schools_by_topic(mongo_collection, topic):
     """Return lst of school"""
-    results = mongo_collection.find_one({"topic": topic})
+    results = mongo_collection.find({"topic": topic})
     return results
