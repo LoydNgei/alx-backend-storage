@@ -1,0 +1,1 @@
+Today we tackle Redis project. Redis stands for (Remote dictionary server). Common use case for redis is Caching in storage.
